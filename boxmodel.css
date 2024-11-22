@@ -1,0 +1,36 @@
+
+div{
+    /* height property */
+    height: 300px;
+
+    /* width property  */
+    width: 200px;
+    background-color: pink;
+/* border property */
+    border: 5px dotted yellowgreen;
+    border-top: 5px dashed purple;
+/* padding property */
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+h1{
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    /* border radius */
+    border-radius: 50%;
+
+    border-left: 5px dotted rgb(39, 17, 207);
+}
+
+button{
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
