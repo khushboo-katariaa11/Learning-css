@@ -19,10 +19,7 @@ On my first day of learning CSS, I explored the foundational concepts and proper
   `color: rgb(255, 87, 51);`
   `/* RGBA (with transparency) */`
   `color: rgba(255, 87, 51, 0.5);`
-  `/* HSL */`
-  `color: hsl(9, 100%, 60%);`
-  `/* HSLA (with transparency) */`
-  `color: hsla(9, 100%, 60%, 0.5);`
+
 
 ---
 
@@ -60,31 +57,26 @@ This was my first step into the world of CSS. I'm excited to keep learning and a
 - **Descendant Selector** (`A B`): Selects all `B` inside `A`.  
 - **Child Selector** (`A > B`): Selects `B` elements that are direct children of `A`.  
 - **Adjacent Sibling Selector** (`A + B`): Selects `B` immediately after `A`.  
-- **General Sibling Selector** (`A ~ B`): Selects all `B` that are siblings of `A`.  
+
 
 ### **Attribute Selectors**
 - `[attr]`: Selects elements with the specified attribute.  
 - `[attr="value"]`: Selects elements with an attribute equal to the value.  
-- `[attr^="value"]`: Selects elements with an attribute starting with the value.  
-- `[attr$="value"]`: Selects elements with an attribute ending with the value.  
-- `[attr*="value"]`: Selects elements with an attribute containing the value.  
+
 
 ---
 
 ## **2. Pseudo-classes**
 Pseudo-classes define the state of an element:  
 - `:hover`: When the user hovers over an element.  
-- `:focus`: When an element gains focus.  
+- `:active`: When an element is clicked.  
 - `:nth-child(n)`: Targets the nth child.  
-- `:first-child`, `:last-child`: Target the first and last child elements.  
-- `:not(selector)`: Selects everything except the specified selector.  
+
 
 ---
 
 ## **3. Pseudo-elements**
 Pseudo-elements allow you to style specific parts of an element:  
-- `::before`: Inserts content before the element’s content.  
-- `::after`: Inserts content after the element’s content.  
 - `::first-line`: Styles the first line of a block of text.  
 - `::first-letter`: Styles the first letter of a block of text.  
 
@@ -133,25 +125,14 @@ Defines how elements are displayed:
 
 ---
 
-## **9. Positioning**
-- `static` (default): Elements are positioned in the normal document flow.  
-- `relative`: Positioned relative to its normal position.  
-- `absolute`: Positioned relative to its nearest positioned ancestor.  
-- `fixed`: Positioned relative to the viewport.  
-- `sticky`: Toggles between `relative` and `fixed` depending on scroll.
 
----
 
-## **10. Relative Units**
+## **9. Relative Units**
 - `%`: Relative to the parent element.  
 - `em`: Relative to the font size of the parent.  
 - `rem`: Relative to the font size of the root element.  
 
 ---
 
-## **Key Notes**
-- CSS follows a cascading order (inline > internal > external).  
-- Always consider specificity and inheritance for conflicts.  
-- Mastering the box model is critical for layouts and spacing.  
-- Practice positioning and relative units for responsive designs.
+
 
